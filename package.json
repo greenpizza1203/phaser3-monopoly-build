@@ -21,6 +21,7 @@
     "type": "git",
     "url": "git+https://github.com/photonstorm/phaser3-custom-build.git"
   },
+  "types": "./types/phaser.d.ts",
   "author": "Richard Davey <rich@photonstorm.com> (http://www.photonstorm.com)",
   "license": "MIT",
   "bugs": {
