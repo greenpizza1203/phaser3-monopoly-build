@@ -2,7 +2,7 @@
   "name": "phaser3-custom-build",
   "version": "1.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "dist/phaser-full.min.js",
   "scripts": {
     "build": "webpack --display-modules",
     "buildlog": "webpack --json --profile > webpack.build-log.json",
@@ -27,7 +27,7 @@
     "url": "https://github.com/photonstorm/phaser3-custom-build/issues"
   },
   "homepage": "https://github.com/photonstorm/phaser3-custom-build#readme",
-  "dependencies": {
+  "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "eventemitter3": "^4.0.0",
     "phaser": "^3.22.0",
